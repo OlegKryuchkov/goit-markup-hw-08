@@ -1,0 +1,93 @@
+.team {
+  background: var(--background-tertiary);
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  line-height: calc(42 / 36);
+  letter-spacing: 0.03em;
+  color: var(--body-text-primary);
+  margin-bottom: 50px;
+}
+
+.container .team-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-item {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-item-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--body-text-primary);
+}
+
+.team-item-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.team-item-description {
+  margin-top: 10px;
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  line-height: calc(19 / 16);
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: var(--body-text-secondary);
+}
+
+.team-soc-list {
+  display: flex;
+  justify-content: center;
+  margin-left: 32px;
+  margin-right: 32px;
+  gap: 10px;
+}
+
+.team-soc-item {
+  width: 44px;
+  height: 44px;
+}
+
+.team-soc-link {
+  width: 100%;
+  height: 100%;
+  background: var(--icon-background-primary);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: var(--icon-background-secondary);
+  }
+}
+
+.team-soc-icon {
+  fill: var(--icon-primary);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  .team-soc-link:hover & {
+    fill: #ffffff;
+  }
+  .team-soc-link:focus & {
+    fill: #ffffff;
+  }
+}

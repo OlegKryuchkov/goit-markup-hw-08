@@ -1,0 +1,42 @@
+.whatwedo-title {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  line-height: calc(42 / 36);
+  letter-spacing: 0.03em;
+  color: var(--body-text-primary);
+}
+
+.whatwedo .whatwedo-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.whatwedo-item {
+  position: relative;
+}
+
+.whatedo-description-wrapper {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  left: 0;
+  bottom: 0;
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.whatwedo-item-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}

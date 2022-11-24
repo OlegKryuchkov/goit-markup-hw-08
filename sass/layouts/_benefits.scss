@@ -1,0 +1,45 @@
+.benefits {
+  padding-top: 94px;
+}
+
+.benefits .cardlist__list {
+  display: flex;
+  justify-content: space-between;
+}
+.cardlist__item {
+  margin-left: 30px;
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+.cardlist__item-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--body-text-primary);
+  margin-bottom: 10px;
+}
+
+.cardlist__item-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--body-text-secondary);
+}
+
+.cardlist__list-icon {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+  /* width: 270px; */
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
